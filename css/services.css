@@ -1,0 +1,45 @@
+/* Start of our services */
+.our-services {
+    display: block;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.services-title {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+
+.box {
+    display: inline-block;
+    width: 22%;
+    background-color: #ccc;
+    margin: 3px;
+    padding: 10px 5px;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0,0.4);
+    border-radius: 8px;
+}
+
+.box p {
+    font-size: 22px;
+}
+
+.box a {
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .box {
+        display: block;
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+}

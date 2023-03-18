@@ -1,0 +1,100 @@
+/* style for the contact page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.contact-container {
+    display: block;
+    width: 90%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+.contact-map {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.contact-info {
+    display: inline-block;
+    width: 30%;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.book-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.contact-btn {
+    font-weight: normal;
+    color: blue;
+}
+
+.hours {
+    border: 1px solid black;
+    padding: 0px 5px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.work {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+form {
+    width: 70%;
+}
+
+.form-title {
+    color: blue;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+    .contact-map {
+        display: block;
+        width: 90%;
+        margin: auto auto 30px auto;
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    .contact-info {
+        display: block;
+        width: 85%;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    form {
+        width: fit-content;
+    }
+}

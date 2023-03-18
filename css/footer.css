@@ -1,0 +1,51 @@
+/* Style for themfooter section */
+.footer-container {
+    background-color: #000;
+    padding-left: 20px;
+}
+
+.footer-1, .footer-2, .footer-3 {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+
+.footer-1 h1 {
+    color: white;
+    font-family: cursive;
+}
+
+.footer-1 p {
+    color: white;
+}
+
+.footer1-email {
+    color: white;
+}
+
+.footer-social {
+    font-size: 30px;
+    color: white;
+}
+
+.footer-2 h2, .footer-3 h2 {
+    color: white;
+}
+
+.footer-2 a {
+    display: block;
+    text-align: left;
+    color: white;
+}
+
+.footer-3 p {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .footer-1, .footer-2, .footer-3 {
+        display: block;
+        width: 80%;
+        
+    }
+}

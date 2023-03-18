@@ -1,0 +1,121 @@
+/* Style for the header section */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.top-header {
+    display: flex;
+    background-color: grey;
+    height: 20px;
+    padding: 5px;
+}
+
+.call, .email {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.top-btn {
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    padding: 4px 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: -2px;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+.social {
+    color: white;
+    margin-top: -1px;
+    margin-left: 20px;
+}
+
+.middle-header {
+    display: flex;
+    background-color: #000;
+}
+
+.logo {
+    width: 50%;
+    color: white;
+    margin-left: 40px;
+    font-family: cursive;
+}
+
+.nav-menu {
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+ }
+ 
+ nav, a, .drop-btn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ 
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+ }
+ 
+ .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-right: 10px;
+ }
+ 
+ .dropdown-content a:hover {
+    background-color: #bbb;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+    display: block;
+ }
+
+ @media (max-width: 600px) {
+    .call, .email {
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .social {
+        color: white;
+        margin-top: -3px;
+        margin-left: 10px;
+        
+    }
+
+    .top-btn {
+        display: none;
+    }
+ }
+ 

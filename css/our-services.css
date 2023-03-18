@@ -1,0 +1,47 @@
+/* Style for the Services Page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.services-container {
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.services-title {
+    color: blue;
+    font-size: 40px;
+}
+
+.services-box {
+    display: inline-block;
+    width: 40%;
+    max-height: fit-content;
+    margin: 20px;
+    padding: 7px;
+    vertical-align: top;
+    background-color: #eee;
+    box-shadow: 0 6px 4px 0 rgb(0,0,0,0.4);
+    border-radius: 8px;
+}
+
+.services-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.services-box h2 {
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    .services-box {
+        display: block;
+        width: 70%;
+        margin: 0 auto 20px auto;
+    }
+}

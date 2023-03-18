@@ -1,0 +1,15 @@
+/* style for the breadcrumbs */
+.page-start {
+    background-color: grey;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.page-start a {
+    color: #ddd;
+}
+
+.page-start span {
+    font-weight: bold;
+    color: white;
+}
